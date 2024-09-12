@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:  #ececec;
+}
+#segment1{
+    height: 800px;
+    background-image: url(src/Luigi.jpg);
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    flex-basis: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#footer{
+    position: relative;
+    height: 350px;
+    background-color: #045447;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+#footer h1{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+#footer p{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.socials{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: aliceblue;
+    margin: 20px;
+    line-height: 80px;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, 0.3);
+    transition: all .5s ease-out;
+}
+.icon:hover{
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+.icon a{
+    text-transform: none;
+    line-height: 80px;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+.icon:hover i{
+    color: aliceblue;
+}
+.icon .fa-facebook-f{
+    color: #1a6ed8;
+}
+.fb:hover{
+    background: #1a6ed8;
+}
+.icon .fa-instagram{
+    color: #df4c73;
+}
+.ig:hover{
+    background: #df4c73;
+}
+.icon .fa-linkedin-in{
+    color: #0077b5;
+}
+.lnk:hover{
+    background: #0077b5;
+}
+.icon .fa-envelope{
+    color: #000102;
+}
+.eml:hover{
+    background: #000000;
+}
+h1{
+    margin: 100px;
+    padding: 0;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+p{
+    margin: 100px;
+    padding: 0;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+intro1{
+    display: flex;
+    align-items: center;
+}
+.intro1 h1{
+    text-align: left;
+    font-size: 100px;
+}
+.intro1 p{
+    text-align: left;
+    font-size: 40px;
+}
+@-media only screen and (min-width: 320px) and (max-width:991px){
+    .body{
+        flex-direction: column;
+    }
+}
